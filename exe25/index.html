@@ -5,8 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posição de imagens</title>
     <link rel="shortcut icon" href="image/bg-7-S.jpg" type="image/x-icon">
+    <style>
+        body{
+            padding:0;
+            margin:0;
+            font-family: "opens-sans",sans-serif;
+            height: 100vh;
+        }
+        .cabecalho{
+            background-image: linear-gradient(To top,blue,yellow,red);
+            height: 40px;
+            margin: 0.2%;
+            border-radius: 5px;
+            display: flex;
+            justify-content: right;
+        }
+        .cabecalho ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: right;
+            color: white;
+            gap: 5px;
+            margin: 0px 2% 0px 0px;
+        }
+        .cabecalho a{
+            font-weight: bolder;
+            font-size: 14px;
+            display: flex;
+            color: black;
+            text-decoration: none;
+        }
+        .cabecalho a:hover{
+            color: blueviolet;
+
+        }
+        .navegacao{
+            background-image: url(image/bg-10-S.jpg);
+            background-repeat:repeat-x;
+            height: 100vw;
+            margin: 0.2%;
+            border-radius: 5px;
+            
+        }
+    </style>
 </head>
 <body>
+    <header class="cabecalho">
+        <ul>
+            <a href="#">Favoritos</a>
+            <a href="#">Minha conta</a>
+            <a href="#">Login</a>
+        </ul>
+
+    </header>
+    <nav class="navegacao">
+
+    </nav>
     
 </body>
 </html>
