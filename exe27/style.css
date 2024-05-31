@@ -1,0 +1,107 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "open-sans",sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "open-sans",sans-serif;
+    height: 100vw;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 2px 0.3% 2px 0.3%;
+    border-radius: 8px;
+    background:black ;
+    color: white;
+}
+header h1{
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+header h5{
+    font-weight: bolder;
+    font-size: 13px;
+    margin: 0px 0px 2px 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+    margin: 0px 0.3% 0px 0.3%;
+    border-radius: 8px;
+    background-color: white;
+   
+}
+
+.conteiner-p-verso{
+ margin: 2px 0.3% 2px 0.3%;
+border-radius: 7px;
+background-color: white;
+background-size: cover;
+background-attachment: fixed;
+
+}
+.primeiro-verso{
+    margin: 2px 0.1% 1px 0.1%;
+    font-size: 19px;
+    padding: 5px;
+    margin: 0;
+}
+
+.conteiner-s-verso{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 6px;
+    margin: 0px 0.2% 1px 0.3%;
+}
+.segundo-verso{
+    font-size: 19px;
+    padding: 5px;
+}
+
+.conteiner-ultimo-verso{
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 1px 0.3% 0px 0.3%;
+    border-radius: 7px;
+    color: white;
+}
+.ultimo-verso{
+    font-size: 19px;
+    padding: 7px; 
+}
+footer{
+    background-image: linear-gradient(To top black);
+    background-attachment: fixed;
+    padding: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0.3% 2px 0.3%;
+    border-radius: 7px;
+}
+footer ul span{
+    color: white;
+    padding: 70px;
+   
+}
+footer a{
+    color: white;
+}
+
+
+
