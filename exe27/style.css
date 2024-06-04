@@ -86,7 +86,14 @@ background-attachment: fixed;
     padding: 7px; 
 }
 footer{
-   
+    margin:1px 0.3% 3px 0.3% ;
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+   background-color: rgb(29, 28, 28);
+   color: rgb(179, 171, 171);
+   border-radius: 7px;
+
 }
 
 
